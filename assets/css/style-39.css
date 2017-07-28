@@ -1,0 +1,306 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 100;
+}
+body {
+    font-family:Roboto;
+}
+a:hover { text-decoration: none }
+
+.gradient-overlay-wrapper{background-image: url(../images/bg-39.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+.gradient-overlay-wrapper:after{
+ background: #24166e;
+background: -moz-linear-gradient(-45deg, #24166e 18%, #2989d8 50%, #dd9dba 74%);
+background: -webkit-linear-gradient(-45deg, #24166e 18%,#2989d8 50%,#dd9dba 74%);
+background: linear-gradient(135deg, #24166e 18%,#2989d8 50%,#dd9dba 74%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24166e', endColorstr='#dd9dba',GradientType=1 );
+
+
+position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9
+
+}
+.logo img{
+    max-width: 165px;
+    max-height: 100px;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    display: block;
+    opacity: .5;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.main-menu li:hover a{
+    opacity: 1;
+}
+.header-area{
+    position: relative;
+    z-index: 1;
+    padding:20px 0;
+}
+
+.header-area:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: "";
+    opacity: .2;
+}
+.mobile{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    
+}
+
+.mobile-screen{
+    max-height: 500px;
+}
+.hero-text{
+    max-width: 450px;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+   
+    
+   
+    
+}
+.hero-text p{
+    opacity: .6;
+}
+.hero-text h1{
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    
+  
+}
+.hero-buttons{
+    margin-top: 50px;
+}
+.hero-buttons a{
+      color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+a.bordered-btn{
+  border: 1px solid;   
+}
+a.bordered-btn:hover{
+    background: #fff;
+    color: #000;
+}
+a.underlined-btn{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
