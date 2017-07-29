@@ -31,7 +31,7 @@ body {
 a:hover { text-decoration: none }
 
 .single-slide-item{background-image:url(../assets/images/bg-38.jpg);}
-.single-slide-item slide-2{background-image: url(../assets/images/bg-3.jpg);}
+.single-slide-item.slide-2{background-image: url(../assets/images/bg-3.jpg);}
 
 .header-area{
     padding: 25px 0;
