@@ -1,0 +1,280 @@
+/* Base CSS */
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700');
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: Droid Serif;
+}
+body {
+    font-family:'montserrat',sans-serif;
+    background: #EBEAF0;
+}
+a:hover { text-decoration: none }
+
+.colored-bg{
+   background: #76D3DA; 
+    color: #fff;
+    position: relative;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+.colored-bg img{
+    position: absolute;
+    right:-35px;
+    bottom: -1px;
+    max-width: 576px;
+    
+}
+.slide-text{
+    padding-left: 100px;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    min-height:680px;
+    max-height: 680px;
+    padding-left: 80xp;
+}
+.top-ticker{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 15px;
+    
+}
+.top-ticker:before{
+    position: absolute;
+    left:0 ;
+    bottom: -5px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #fff;
+        
+}
+.slide-text h1{
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    
+}
+.slide-text .boxed-btn{
+    display: inline-block;
+   text-transform: uppercase;
+    color: #000;
+    background: #F4F551;
+    font-size: 12px;
+     font-weight: 400;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.boxed-btn:hover{
+    box-shadow: 0 10px 60px #F4F551;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
