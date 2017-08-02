@@ -1,0 +1,328 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-bg{background-image: url(../images/bg-40.jpeg);
+    
+}
+
+.section-padding{
+    padding: 100px 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #63B5FF;
+    position: relative;
+    background-attachment: fixed;
+   
+}
+.price-box{
+    box-shadow:  0 0 30px #6CD8EC;
+    overflow: hidden;
+}
+.single-price-box{
+    border-right: 1px solid #87CAD0;
+    float: left;
+    width: 33.33333%;
+    /*! padding: 20px; */
+}
+.single-price-box:last-child{
+    border-right: none;
+}
+.price-box-image{
+    display: table;
+    width: 100%;
+    height: 140px;
+}
+.price-box-image img{
+    max-width: 180px;
+    max-height: 165px;
+}
+.single-price-box-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+.price-box-inner{
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #45B5CD;
+}
+.price-box-inner h2{
+    color: #40B2CC;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.price-box-inner h2:before{
+    position: absolute;
+    left:0;
+    bottom:-8px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #40B2CC;
+    margin-left:90px;
+    
+    
+}
+.price-box-inner h3{
+    color: #FB5D6B;
+    font-size: 40px;
+    padding-left: 15px;
+    
+}
+.price-box-inner h3 span{
+display: inline-block;
+    position: relative;
+}
+.price-box-inner h3 span:before{
+    content: "$";
+    font-size: 20px;
+    position: absolute;
+    left: -15px;
+    top: -2px;
+    font-weight: 400;
+    
+}
+.price-box-inner h3 span:after{
+    content: "/mo";
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.price-box-inner ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.price-box-inner ul li{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.boxed-btn{
+    background: #4AB9CD;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    transition: .5s;
+    text-decoration: none;
+
+}
+.boxed-btn:hover{
+    background: #FB5D6B;
+    color: #fff;
+}
+.boxed-btn.active{
+    background: #FB5D6B;
+}
+.boxed-btn.active:hover{
+    background: #4AB9CD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
