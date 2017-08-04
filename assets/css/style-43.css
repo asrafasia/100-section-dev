@@ -1,6 +1,6 @@
 /* Base CSS */
 
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff');
 @import url('http://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,300i,400,400i,500,500i,700,700i');
 .alignleft {
     float: left;
@@ -35,7 +35,7 @@ body,html{height: 100%;}
 a:hover { text-decoration: none }
 
 .hero-area-logo h3{
-    font-family: 'Calligraffitti', cursive;
+   font-family: 'Herr Von Muellerhoff', cursive;
 }
 
 .welcome-hero-area{
