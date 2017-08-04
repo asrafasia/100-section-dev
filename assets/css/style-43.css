@@ -163,6 +163,7 @@ a:hover { text-decoration: none }
     line-height:30px;
     font-weight: 300;
     margin: 0;
+    text-transform: capitalize;
     
 }
 .hero-area-logo h2{
@@ -228,9 +229,7 @@ a:hover { text-decoration: none }
     width: 0;
 }
 
-.hero-area-logo h3{
-    text-transform: none;
-}
+
 .hero-area-logo p{
     margin-top: 20px;
     color: #fff;
