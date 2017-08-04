@@ -1,0 +1,299 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+}
+body,html{height: 100%;}
+a:hover { text-decoration: none }
+
+.hero-area-logo h3{
+    font-family: 'Mr De Haviland', cursive;
+}
+
+.welcome-hero-area{
+    background-image: url(../images/slider-bg-43.jpg);
+    height:100%;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.header-area{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+.logo h1{
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing:4px;
+    margin: 0;
+}
+.logo a{
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding-bottom: 6px;
+    
+}
+.logo a:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background: #fff;
+    
+}
+.mainmenu{
+    margin-top: 3px;
+}
+.mainmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+}
+.mainmenu ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.mainmenu ul li a{
+    display:inline-block;
+    z-index: 1;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+   
+}
+.mainmenu ul li a:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    content: "";
+     transition: all 0.3s ease 0s;
+}
+.mainmenu a:hover {
+    color: #c39a60;
+}
+.welcome-hero-area:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    opacity: .3;
+    z-index: -1;
+}
+.hero-area-table{
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+.hero-area-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.scroll-top-about{
+    position: absolute;
+    left: 50%;
+    color: #fff;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    margin-left: -20px;
+   animation: 1s ease 0s normal none infinite running arrow-up-down;
+}
+
+@keyframes arrow-up-down {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hero-area-logo h3{
+    color: #C39866;
+    font-size: 100px;
+    line-height:30px;
+    font-weight: 300;
+    margin: 0;
+    
+}
+.hero-area-logo h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.bordered-area{
+    overflow: hidden;
+    max-width: 340px;
+    margin:0 auto;
+  
+}
+.bordered-left,.bordered-right{
+    width: 35%;
+    background: #fff;
+    float: left;
+    height: 2px;
+    margin-top:6px;
+    position: relative;
+   
+}
+.bordered-area i.fa{
+    float: left;
+    margin:0 10px;
+    color:#d6c5ad;
+     animation: snowflakes 3s linear infinite;
+
+}
+@keyframes snowflakes{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.bordered-left{
+    margin-left: 32px;
+
+}
+.bordered-left:before{
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    border-top: 5px solid transparent;
+    content: "";
+    height: 0;
+    left: -2px;
+    position: absolute;
+    top: -4px;
+    width: 0;
+}
+.bordered-right:after{
+     border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+    border-top: 5px solid transparent;
+    content: "";
+    height: 0;
+    right: -2px;
+    position: absolute;
+    top: -4px;
+    width: 0;
+}
+
+.hero-area-logo h3{
+    text-transform: none;
+}
+.hero-area-logo p{
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#triangle-left {
+ width: 0; 
+ height: 0; 
+ border-top: 50px solid transparent;
+  border-right: 100px solid red;
+ border-bottom: 50px solid transparent; } 
+
+*/
+
+/*#triangle-right { 
+width: 0;
+ height: 0; 
+ border-top: 50px solid transparent;
+  border-left: 100px solid red;
+   border-bottom: 50px solid transparent;
+    } */
