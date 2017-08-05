@@ -5,12 +5,51 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+ 	
+  .hero-text {
+    margin-top: 80px;
+  }
+    
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+ .welcome-area{
+   	height: auto;
+     background-size: cover;
+     background-position: center;
+     background-color: #333;
+   }
+  .hero-area-table{
+    display: block;
+    height: auto;
+  }
+  .hero-text{
+    padding:150px 0;
+  }
+  
+  .logo{
+    margin-bottom: 20px;
+  }
+  .logo,.copyright-area ul,.mainmenu,.copyright-area{
+    text-align: center;
+  }
+  .copyright-area{
+    position: relative;
+}
+  .copyright-area ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+  } 
+  
+  
+button[type="submit"] {
+    width: 58%;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
     
 }
 /* Wide Mobile Layout: 480px. */

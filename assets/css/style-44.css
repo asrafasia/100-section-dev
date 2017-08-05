@@ -1,0 +1,248 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.welcome-area {background-image: url(../images/radio.jpg);}
+
+
+html, body {
+    height: 100%;
+}
+
+.welcome-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+.welcome-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    content: "";
+    width: 100%;
+    background: #FFFFFF;
+    z-index: -1;
+    opacity: .5;
+}
+.logo img {
+    max-width: 40px;
+    padding-right: 5px;
+
+}
+.logo a {
+    color: #EF4043;
+}
+.logo h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu li a {
+    display: block;
+    color: #333333;
+    padding: 10px 25px;
+    border-radius: 50px;
+
+
+}
+
+.mainmenu li.bordered a {
+    border: 1px solid;
+    color: #EF4043;
+}
+.logo {
+    margin-top: 10px;
+}
+.header-area {
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+}
+.copyright-area {
+    background: #42413E;
+    font-size: 85%;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+.copyright-area, .copyright-area a {
+    color: #999;
+}
+.copyright-area ul {
+    margin: 0;
+    padding: 0;
+   list-style: none;
+}
+.copyright-area li {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-text {
+    font-weight: 300;
+    font-size: 20px;
+}
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.email-subscribe-form {
+    margin-top: 50px;
+    font-size: 14px;
+    max-width: 505px
+}
+.email-subscribe-form input[type="email"]{
+    background: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 58%
+}
+button[type="submit"] {
+    background: #EF4043;
+    color: #fff;
+    border: navajowhite;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
