@@ -100,6 +100,9 @@ a:hover { text-decoration: none }
 }
 
 /* video slider area */
+.video-slider-area{
+    margin-top: 50px;
+}
 
 #gallery{
     max-width: 100% !important;
