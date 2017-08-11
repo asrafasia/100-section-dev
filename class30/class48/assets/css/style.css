@@ -1,0 +1,324 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: Roboto;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 100px 0;
+}
+.prcing-tables{
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px
+    
+    
+}
+.single-pricing-box{
+    width: 33.333333%;
+    float: left;
+    box-shadow: 0 0 5px #E0E0E0;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    
+}
+body{
+    color: #707074;
+    font-size: 17px;
+    line-height: 1.7; 
+    text-transform: capitalize;
+   
+    
+}
+.pricing-heading{
+    background: #F9F9F9;
+    color: #898888;
+    font-size: 17px;
+    padding: 40px;
+    text-transform: capitalize;
+    
+}
+.pricing-heading h4{
+    color: #888888;
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.pricing-heading h1{
+    color: #333333;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.pricing-content{
+    padding: 60px;
+    
+    
+}
+.pricing-content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+    
+}
+.pricing-btn{
+    display: inline-block;
+    border: 1px solid #FC103C;
+    color: #FC103C;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.active .pricing-heading{    
+    background: #FC1F48;
+    color: #fff;
+    margin-top: -22px;
+}
+.active .pricing-content{
+    padding: 80px 70px;
+}
+.single-pricing-box.active{
+    overflow: hidden;
+    margin-top: -30px;
+}
+.single-pricing-box.active{
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.333333%;
+    
+   
+}
+.active .pricing-heading h4{
+    color: #fff;
+}
+.active .pricing-heading h1{
+    color: #fff;  
+}
+.active .pricing-btn{
+    background: #FC1F48;
+    color: #fff;
+}
+.single-pricing-box:hover {
+    box-shadow: 0 0 40px #E0E2E4;
+    transition: .3s;
+}
+.pricing-btn:hover {
+    background: #FC1F48;
+    color: #fff;
+    transition: .3s;
+}
+.pricing-btn.active:hover{
+    background: #4AB9CD;
+    color: #fff;
+    transition: .3s;
+}
+.single-pricing-box.active::after{
+    content: "featured";
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    color: #FC1F48;
+    background: #fff;
+    transform: rotate(45deg);
+    font-size: 14px;
+    padding: 5px 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
