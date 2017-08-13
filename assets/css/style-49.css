@@ -1,0 +1,169 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 2;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.custom-tab{
+    margin-bottom: 200px;
+}
+.tab-list{
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.tab-list li{
+    display: inline-block;
+}
+.tab-list li a{
+    display: block;
+    padding: 10px 20px;
+    color: #666;
+    text-transform:capitalize;
+    position:relative;
+    text-decoration: none;
+}
+.tab-list li.active a{
+    color: #FC103C;
+}
+.tab-list li.active a:after{
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #FC103C;
+    
+}
+.tab-content{
+    text-transform: capitalize;
+}
+
+/*my custom tabs css*/
+
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.tab .nav-tabs{
+    position: relative;
+    border-bottom: none;
+}
+.tab .nav-tabs li{
+    text-align: center;
+    margin-right: 3px;
+}
+.tab .nav-tabs li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 15px;
+    background: #505028;
+    margin-right: 0;
+    border-radius: 16px 55px;
+    border: none;
+    border-bottom: 4px solid #beb3a0;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover,
+.nav-tabs li a:hover{
+    border: none;
+    border-bottom: 4px solid #4280ba;
+    background: #d39d31;
+    color: #fff;
+}
+.tab .tab-content{
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    background: #505028;
+    border-radius: 16px 55px;
+    padding: 15px;
+    margin-top: 2px;
+}
+.tab .tab-content h3{
+    font-size: 24px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 479px){
+    .tab .nav-tabs li{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
