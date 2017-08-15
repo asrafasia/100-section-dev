@@ -1,0 +1,241 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+
+}
+body {
+    font-family: Roboto;
+}
+a:hover { text-decoration: none }
+
+
+
+/*  mainmenu*/
+
+.mainmenu{
+    margin-top: 20px;
+    
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #25385B;
+ 
+}
+.mainmenu ul li{
+    display: inline-block;
+    
+}
+.mainmenu li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:15px;
+    color: #fff;
+}
+
+
+/* submenu */
+
+.mainmenu ul li{
+    position: relative;
+}
+.mainmenu ul li ul{
+    position: absolute;
+    left: -20px;
+    top: 50px;
+/*     top: 30px for top animation */
+    width:170px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    padding: 15px;
+}
+
+.mainmenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    left:0;
+/*     top: 50px; for top animation */
+}
+
+.mainmenu ul li ul li{
+    display: block;
+}
+
+.mainmenu ul li ul a{
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainmenu ul li:hover>a{
+    background: #00C9CF;
+    color: #fff;
+}
+.mainmenu ul li>a{
+    transition: .3s;
+}
+
+/*class 52 start*/
+
+.bg-1{background-image: url(../images/medical-img-bg-2.jpg);}
+.bg-2{background-image: url(../images/medical-img-bg-3.jpg);}
+.bg-3{background-image: url(../images/medical-img-bg-1.jpg);}
+
+.section-padding{
+    padding: 80px 0;
+}
+.section-title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+   
+}
+.section-title h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.section-title h2 span{
+    color: #00C9CF;
+}
+
+.section-title p{
+    color: #848484;
+}
+.service-box-bg{
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    height:250px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    border: 5px 5px 0 0;
+}
+.service-box-bg i:before{
+    margin: 0;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.service-box-bg i{
+    height: 70px;
+    width: 70px;
+    background: #25385B;
+    color: #fff;
+    border: 5px solid #fff;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left:50%;
+    bottom: -35px;
+    margin-left: -35px;
+    transition: .3s;
+   
+}
+.single-service-box{
+    border: 1px solid #E7E7E7;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    transition: .3s;
+    display: block;
+    color: #000;
+    text-decoration: none;
+
+}
+.single-service-box h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    transition: .3s;
+}
+.single-service-box:hover .service-box-bg i{
+    background: #00C9CF;
+    border-color:#25385B;
+}
+
+.single-service-box:hover h2{
+    background: #25385B;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
