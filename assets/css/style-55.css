@@ -1,0 +1,181 @@
+/* Base CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: Roboto;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding:100px 0;
+}
+.video-play-btn{
+    background-size:100%;
+    background-position: center;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: table;
+    width: 100%;
+    color: #fff;
+    transition: .3s;
+    text-decoration: none;
+
+}
+
+.video-play-btn:hover{
+    color: #fff;
+    background-size: 110%;
+}
+.video-overlay{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    z-index: 1;
+    opacity: 0;
+    transform: scale(.7);
+    visibility: hidden;
+    transition: .3s;
+}
+.video-play-btn:hover .video-overlay{
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+
+.video-overlay:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:#DE5368;
+    z-index: -1;
+    opacity: 0.7;
+}
+.boxed-plus{
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+    
+}
+.video-overlay{
+    text-transform: uppercase;
+}
+.video-overlay h3{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.video-overlay p:last-child{
+    opacity: .7;
+}
+
+
+.video-top-desc span{
+    position: relative;
+    z-index: 1
+}
+.video-top-desc span:before,.video-top-desc span:after{
+    position: absolute;
+    content: "";
+    left: -35px;
+    top: 9px;
+    height: 1px;
+    width: 25px;
+    background: #fff; 
+}
+.video-top-desc span:after{
+    right: -35px;
+    left: auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
