@@ -1,0 +1,71 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+.theme-1 .hero-content {
+	width: 60%;
+}
+.theme-2 .hero-content {
+	width: 80%;
+}
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .theme-1 .hero-content {
+	width: 80%;
+}
+.theme-2 .hero-content {
+	width: 90%;
+}
+.theme-2 .contact ul li a {
+	padding: 5px 5px;
+}
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .welcome-hero-area {
+		height: auto;
+	}
+	.welcome-hero-table {
+		display: block;
+		height: auto;
+	}
+
+
+.logo, .mainmenu, .privacy, .social-area {
+  text-align: center;
+}
+.contact ul li a {
+  padding: 5px;
+  font-size: 12px;
+}
+.social-area i.fa {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+.header-area {
+	padding: 30px;
+}
+.footer-area {
+	padding: 10px 30px;
+}
+.theme-2 .hero-content , .theme-1 .hero-content  {
+	padding: 30px;
+	width:100%;
+}
+.hero-content h1 {
+	font-size: 25px;
+}
+.header-area, .footer-area {
+	position: relative;
+}
+body.theme-1, .theme-2 .welcome-hero-area {
+	background-size: auto;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
