@@ -130,7 +130,7 @@
                                 }]
             })
             .marker({
-                 latLng: [22.3258742, 91.679779]
+                 position = Chittagong
         		
             })
             .infowindow({
