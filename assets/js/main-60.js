@@ -130,7 +130,7 @@
                                 }]
             })
             .marker({
-                 position = Chittagong
+                 position : Chittagong
         		
             })
             .infowindow({
