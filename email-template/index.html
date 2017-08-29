@@ -71,6 +71,7 @@
 		/* What it does: Uses a better rendering method when resizing images in IE. */
 		img {
 			-ms-interpolation-mode:bicubic;
+			max-width: 100%;
 		}
 
 		/* What it does: A work-around for email clients meddling in triggered links. */
@@ -110,7 +111,10 @@
 			.email-container {
 				min-width: 375px !important;
 			}
+
+
 		}
+		
 
 	</style>
 
@@ -195,7 +199,7 @@
 
 </head>
 <body width="100%" bgcolor="#222222" style="margin: 0; mso-line-height-rule: exactly;">
-	<center style="width: 100%; background: #222222; text-align: left;">
+	<center style="width: 100%; background: #EEEEEE; text-align: left;">
 
 		<!-- Visually Hidden Preheader Text : BEGIN -->
 		<div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
@@ -203,28 +207,18 @@
 		</div>
 		<!-- Visually Hidden Preheader Text : END -->
 
-		<!-- Email Header : BEGIN -->
-		<!-- <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
-			<tr>
-				<td style="padding: 20px 0; text-align: center">
-					<img src="http://placehold.it/200x50" width="200" height="50" alt="alt_text" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-				</td>
-			</tr>
-		</table> -->
-		<!-- Email Header : END -->
+	
 
 		<!-- Email Body : BEGIN -->
 		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="600" style="margin: auto;" class="email-container">
 
-			<!-- Hero Image, Flush : BEGIN -->
+			
 			<tr>
 				<td bgcolor="#ffffff" align="center">
 					<img src="images/back.jpg" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; margin: auto;" class="g-img">
 				</td>
 			</tr>
-			<!-- Hero Image, Flush : END -->
-
-			<!-- 1 Column Text + Button : BEGIN -->
+			
 			<tr>
 				<td bgcolor="#ffffff" style="padding: 40px 40px 20px; text-align: left;">
 					<h2 style="margin: 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #1E8CBE; font-weight: normal;">hello,</h2>
@@ -258,9 +252,7 @@
 					<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
 						<tr>
 							<td style="border-radius: 3px; background: #222222; text-align: center;" class="button-td">
-								<!-- <a href="http://www.google.com" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
-									&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ffffff;">A Button</span>&nbsp;&nbsp;&nbsp;&nbsp;
-								</a> -->
+								
 							</td>
 						</tr>
 					</table>
@@ -272,7 +264,7 @@
 			<!-- Background Image with Text : BEGIN -->
 		<!-- 	<tr>
 				<!-- Bulletproof Background Images c/o https://backgrounds.cm -->
-				<!-- <td background="" bgcolor="#545454" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;"> --> -->
+				<!-- <td background="" bgcolor="#545454" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;"> -->
 
 					<!--[if gte mso 9]>
 					<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:175px; background-position: center center !important;">
@@ -306,14 +298,14 @@
 								<table role="presentation" cellspacing="0" cellpadding="0" border="0">
 									<tr>
 										<td style="padding: 10px; text-align: center">
-											<!-- <img src="http://placehold.it/270" width="270" height="270" alt="alt_text" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;"> -->
+											
 										</td>
 									</tr>
 									<tr>
 										<td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
-											<h2 style="font-size: 15px;">We Build Your Dream Website</h2>
-											<p style="margin: 0;">Giving you professional website design that's beautiful, affordable, & performs</p>
-											<a href="https://fullsaildigital.com/" style="background: #FF6600; width: 110px; margin:10px 0 0 0; font-family: sans-serif; font-size: 13px; line-height: 1.1; color:#ffffff;text-align: center; text-decoration: none;padding:5px 7px; display: block; border-radius: 5px; font-weight: bold;" class="button-a">
+											<h2 style="font-size: 18px ;">We Build Your Dream Website</h2>
+											<p style="margin: 0;font-size: 15px !important">Giving you professional website design that's beautiful, affordable, & performs</p>
+											<a href="https://fullsaildigital.com/" style="background: #FF6600; width: 110px; margin:30px 0 0 0; font-family: sans-serif; font-size: 13px; line-height: 1.1; color:#ffffff;text-align: center; text-decoration: none;padding:5px 7px; display: block; border-radius: 5px; font-weight: bold;" class="button-a">
 													Visit Our Website
 											</a>
 										</td>
@@ -326,26 +318,22 @@
 								<table role="presentation" cellspacing="0" cellpadding="0" border="0">
 									<tr>
 										<td style="padding: 30px 0; text-align: center;">
-											<a href="https://fullsaildigital.com/" style="display:inline-block;">
+											<a href="https://fullsaildigital.com/" style="display:block;">
 												<img src="images/hand.png" width="20" height="20" alt="alt_text" border="0" class="fluid" style="height: auto; background: #545454; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
 												<p style="color: #ffffff;">Total<br/>Satisfaction<br/> Guaranteed</p>
 											</a>
-											<a href="https://fullsaildigital.com/" style="display:inline-block;">
-												<img src="images/pen.png" width="20" height="20" alt="alt_text" border="0" class="fluid" style="height: auto; background: #545454; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-											<p style="color: #ffffff; margin: 30px 0 0 0">Easily Edited<br> By You</p>
+											<a href="https://fullsaildigital.com/" style="display:block;margin: 10px 0 0 0">
+												<img src="images/pen.png" width="20" height="20" alt="alt_text" border="0" class="fluid" style="height: auto; background: #545454; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;margin: 10px 0 0 0">
+											<p style="color: #ffffff; margin:0">Easily Edited<br> By You</p>
 											</a>
-											<a href="https://fullsaildigital.com/" style="display:inline-block;padding: 0 5px;">
-												<img src="images/pc.png" width="20" height="20" alt="alt_text" border="0" class="fluid" style="height: auto; background: #545454; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-												<p style="color:#ffffff; margin: 30px 0 0 0">Get Found In<br> Search Engines</p>
+											<a href="https://fullsaildigital.com/" style="display:block;padding: 0 5px;margin: 10px 0 0 0">
+												<img src="images/pc.png" width="20" height="20" alt="alt_text" border="0" class="fluid" style="height: auto; background: #545454; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;margin: 10px 0 0 0">
+												<p style="color:#ffffff; margin:0">Get Found In<br> Search Engines</p>
 											</a>
 											
 										</td>
 									</tr>
-									<!-- <tr>
-										<td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #ffffff; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
-											<p style="margin: 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-										</td>
-									</tr> -->
+									
 								</table>
 							</td>
 							<!-- Column : END -->
@@ -357,17 +345,17 @@
 
 			<!-- 3 Even Columns : BEGIN -->
 			<tr>
-				<td bgcolor="#ffffff" align="center" valign="top" style="padding: 10px;">
+				<td bgcolor="#ffffff" align="center" valign="top" style="padding: 70px 0 70px 0;">
 					<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 						<tr>
 							<!-- Column : BEGIN -->
-							<h2 style="font-family: sans-serif;font-weight: 400;">Contact Us For A Free Consultation & Quote</h2>
+							<h2 style="font-family: sans-serif;font-weight: 400;margin: 0 0 20px 0">Contact Us For A Free Consultation & Quote</h2>
 
 							<td width="33.33%" class="stack-column-center">
 								<table role="presentation" cellspacing="0" cellpadding="0" border="0">
 									<tr>
 										<td style="padding: 10px; text-align: center">
-											<img src="images/envelope.png" width="72" height="70" alt="alt_text" border="0" class="fluid" style="height: auto; background: #ffffff; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #2991C1;">
+											<img src="images/envelope.png" max-width="100% !important" height="50" alt="alt_text" border="0" class="fluid" style="background: #ffffff; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #2991C1;">
 										</td>
 									</tr>
 									<tr>
@@ -387,11 +375,11 @@
 								<table role="presentation" cellspacing="0" cellpadding="0" border="0">
 									<tr>
 										<td style="padding: 10px; text-align: center">
-											<img src="images/mobile.png" width="48" height="70" alt="alt_text" border="0" class="fluid" style="height: auto; background: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 20px; color: #2991C1;">
+											<img src="images/mobile.png" max-width="100% !important" height="50" alt="alt_text" border="0" class="fluid" style="background: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 20px; color: #2991C1;">
 										</td>
 									</tr>
 									<tr>
-										<td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+										<td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px;text-align: left;" class="center-on-narrow">
 											<p style="margin: 0;">
 
 												(415) 299-1416<br/>
@@ -408,7 +396,7 @@
 								<table role="presentation" cellspacing="0" cellpadding="0" border="0">
 									<tr>
 										<td style="padding: 10px; text-align: center">
-											<img src="images/envelope.png" width="72" height="70" alt="alt_text" border="0" class="fluid" style="height: auto; background: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 20px; color: #2991C1;">
+											<img src="images/envelope.png" max-width="100% !important" height="50" alt="alt_text" border="0" class="fluid" style="background: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 20px; color: #2991C1;">
 										</td>
 									</tr>
 									<tr>
@@ -427,46 +415,41 @@
 			</tr>
 			<!-- 3 Even Columns : END -->
 
-			<!-- Thumbnail Left, Text Right : BEGIN -->
-			
-			<!-- Thumbnail Left, Text Right : END -->
-
-			<!-- Thumbnail Right, Text Left : BEGIN -->
-			
-			<!-- Thumbnail Right, Text Left : END -->
-
-			<!-- Clear Spacer : BEGIN -->
-			
-			<!-- Clear Spacer : END -->
-
-			<!-- 1 Column Text : BEGIN -->
 			<tr>
 				<td bgcolor="#1E8CBE">
 					<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 						<tr>
-							<td style="padding: 20px 0;text-align: center;">
-								<a href=""><img src="images/fb.png" alt="facebook"></a>
-								<a href=""><img src="images/linkedin.png" alt="facebook"></a>
-								<a href=""><img src="images/yelp.png" alt="facebook"></a>
+							<td style="padding: 30px 0;text-align: center; display: block;clear: both;max-width: 600px;">
+								<a target="_blank" href="https://www.facebook.com/Full-Sail-Digital-1181048401983518/" style="margin: 0 20px 0 0"><img src="images/fb.png" alt="facebook"></a>
+								<a target="_blank" href="https://www.linkedin.com/company-beta/17899090/" style="margin: 0 20px 0 0"><img src="images/linkedin.png" alt="facebook"></a>
+								<a target="_blank" href="https://www.yelp.com/biz/full-sail-digital-tiburon-2"><img src="images/yelp.png" alt="facebook"></a>
 							</td>
 						</tr>
 						<tr>
 							<td align="center">
-								<p>
-									<a href="#">Terms</a> |
-									<a href="#">Privacy</a> |
-									<a href="#"><unsubscribe>Unsubscribe</unsubscribe></a>
+								<p style="font-size:12px;font-family: sans-serif;color: #ffffff;">
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Home</a>&nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Services</a>&nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Services</a>&nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Why Us?</a>&nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Portfolio</a> &nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Testmonials</a> &nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Faq</a>&nbsp;&nbsp;| &nbsp;
+									<a target="_blank" href="https://fullsaildigital.com/" style="text-decoration: none;color: #ffffff;font-size:12px">Contact</a> 
+									
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="padding: 0 0 30px 0">
+								<p style="font-size:12px !important;font-family: sans-serif;color: #ffffff;">
+								&copy; 2017 Full Sail Digital. All Rights Reserved. &nbsp;| &nbsp;
+								<a target="_blank" href="https://fullsaildigital.com/privacy-policy" style="color: #ffffff;text-decoration: none;font-size: 12px;">Privacy Policy</a>
 								</p>
 							</td>
 						</tr>
 
-						<tr>
-							<td>
-								<p>© 2017 Full Sail Digital. All Rights Reserved. &nbsp;| &nbsp;</p>
-								<a href="">Privacy Policy</a>
-
-							</td>
-						</tr>
+			
 					</table>
 				</td>
 			</tr>
