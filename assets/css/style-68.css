@@ -1,0 +1,355 @@
+/*
+    Template Name: Traffic
+    Author Name: Asraf Uddin
+    Author URI: https://asrafasia.github.io/100-section-development.github.io/class68/
+*/
+
+
+/* =================
+CSS Index
+
+* Base CSS
+* Header Area CSS 
+* Dropdown & Mega Menu CSS
+* Welcome Hero Area CSS 
+* Hero Form Area CSS 
+* Slider Area CSS 
+* About Content CSS 
+* Services Area CSS 
+* Tile Section CSS 
+* Case Study Area CSS 
+* Owl Carosuel CSS 
+* Testimonial Area CSS 
+* Feature Area CSS 
+* Breadcumb Area CSS
+* Author Meta Area CSS 
+* Call To Action Area CSS 
+* Pricing Area CSS 
+* Blog Area CSS 
+* Logo Carousel Area CSS 
+* Team Member CSS 
+* FAQ CSS 
+* Copyright Area CSS 
+* Footer Area CSS 
+
+==================== */
+
+
+/* =================
+Base CSS 
+==================== */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+  color:#373737;
+}
+body {
+  font-family: 'Khula', sans-serif;
+  font-size:15px;
+  color:#fff;
+}
+.mainmenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #800000;
+  text-align: center;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  color: #fff;
+  display: block;
+  padding: 12px 15px;
+  transition: .3s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.mainmenu ul li:hover>a{
+  color: #24d5a1;
+}
+
+
+/* =================
+Dropdown & Mega Menu CSS 
+==================== */
+
+.mainmenu ul li {
+  position: relative;
+}
+.mainmenu ul li ul{
+  position: absolute;
+  left: 0;
+  top: 86px;
+  z-index: 1;
+  background: #fff;
+  width: 200px;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px;
+  box-shadow: 0 0 5px #000;
+  
+}
+.mainmenu ul li ul li{
+  display: block;
+}
+.mainmenu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top: 45px;
+  background-color: #F6F6F6;
+}
+
+.mainmenu ul li ul li a {
+  color: #06D6A0;
+  transition: .3s;
+   padding: 12px 20px;
+}
+.mainmenu ul li ul li:hover>a {
+  background: #06D6A0;
+  color: #fff;
+   
+}
+.mainmenu ul li ul {
+  padding-left: 0;
+  text-align: left;
+
+}
+
+.mainmenu ul li.mega-menu {
+  position: static;
+}
+
+.mega-menu-wrapper {
+  position: absolute;
+  left:0;
+  width:auto;
+  top: 86px;
+  background: #F6F6F6;
+  z-index: -1;
+  padding:20px;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 0 5px #000;
+  
+  
+  
+}
+
+.mainmenu ul li.mega-menu:hover .mega-menu-wrapper {
+  top: 47px;
+  opacity: 1;
+  visibility: visible;
+}
+.mainmenu ul li.mega-menu ul {
+  position: relative;
+  left: auto;
+  top: auto;
+  opacity: 1;
+  visibility: visible;
+  padding: 0;
+  box-shadow: 0 0 0;
+  width:auto;
+}
+
+.mainmenu ul li:last-child ul {
+  left: auto;
+  right: 0;
+}
+
+
+li.mega-menu:hover .mega-menu-wrapper {
+  z-index: 99;
+}
+
+
+
+
+.mega-menu-wrapper h3 {
+  font-size: 22px;
+  font-weight: 500;
+   line-height: 1.2;
+}
+
+.mega-menu-wrapper h3 span {
+  color: #06D6A0;
+  font-weight: 700;
+}
+.mega-menu-wrapper p{
+  color: #000;
+  padding: 0 30px;
+}
+.mega-menu-wrapper .boxed-btn {
+  color: #000;
+  background-color: #06D6A0;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+  
+}
+.mega-menu-wrapper .boxed-btn:hover {
+  color: #fff;
+}
+.mainmenu ul li.mega-menu ul li a {
+  color: #06D6A0;
+}
+.mega-menu-wrapper h4 {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 20px;
+}
+.mainmenu ul li.mega-menu ul li:hover a {
+  color: #fff;
+}
+
+.mega-menu-wrapper,.mega-menu-wrapper h3, .mega-menu-wrapper p, .theme-3 .boxed-btn {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* sky color content*/
+
+.article{
+    height: 500px;
+    width: 100%;
+    background-color: #4C9ED9;
+  margin-top:-10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
