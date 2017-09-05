@@ -1,0 +1,276 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+
+/*--custom-modal css--*/
+.custom-modal .modal-title{
+  color:cyan;
+  font-size:40px;
+}
+.custom-modal .modal-body h2{
+  color: hotpink;
+  font-size: 35px;
+}
+
+
+.custom-modal .modal-dialog{
+  width: 800px;
+  
+}
+.custom-modal .modal-header{
+  border-bottom-color:green;
+}
+.custom-modal .modal-content{
+  background-color:gray;
+  color:#fff;
+  border-radius: 0;
+}
+
+.custom-modal .close{
+  color:red;
+  opacity: 1;
+  font-size: 30px;
+  
+}
+.custom-modal .modal-footer{
+  border-top-color: green;
+}
+
+.custom-modal .btn-danger{
+  background-color: yellow;
+  color: red;
+}
+
+.custom-modal .btn-primary{
+  background-color: green;
+}
+
+
+
+
+
+.hero-area{
+    background-image: url(../images/bg-67.jpg);
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-menu {
+  background: #1A1A1A;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+}
+.hero-area {
+  width: 80%;
+  margin-left: 20%;
+  display: table;
+  height: 100%;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+html, body {
+  height: 100%;
+}
+.logo h2 {
+    color: #fff;
+    font-size: 35px;
+    background: #25221D;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 130px;
+}
+.logo {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.hero-area {
+  position: relative;
+  z-index: 1;
+}
+.hero-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #70716C;
+  content: "";
+  z-index: -1;
+  opacity: .5;
+}
+.hero-content {
+  margin-left: 10%;
+}
+.hero-content h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.hero-content h1 span {
+  color: #FFB700;
+  position: relative;
+}
+.hero-area span:after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 30px;
+  background: #FFB700;
+  right: -40px;
+  bottom: 0;
+}
+.hero-content p {
+  color: #fff;
+  width: 70%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.boxed-btn {
+  color: #1A1A1A;
+  padding: 15px 40px;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+
+}
+.boxed-btn:before {
+  background: #958383;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  opacity: .5;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.boxed-btn:hover {
+  color: #FFB700;
+  text-decoration: none;
+}
+
+
+
+
+.arrow-down a:hover {
+    color: #FCA700
+}
+.arrow-down a {
+    
+    color: #fff;
+    transition: .3s;
+}
+.arrow-down {
+    bottom: 25px;
+    font-size: 40px;
+    left: 10%;
+    position: absolute;
+     animation: 1s ease 0s normal none infinite running arrow-up-down;
+}
+@keyframes arrow-up-down {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu li {
+  display: block;
+}
+.menu ul li a {
+  color: #fff;
+  transition: .3s;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0;
+  display: block;
+}
+.menu ul li a:hover {
+  color: #FFB700;
+}
+
+.menu {
+  margin-bottom: 30px;
+}
+.social-icon i.fa {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 10px;
+  display: inline-block;
+  transition: .3s;
+}
+.social-icon i.fa:hover {
+  color: #FFB700;
+}
+.social-icon {
+  padding: 30px 0;
+}
+.copyright {
+  color: #fff;
+  font-size: 12px;
+}
+.copyright span{
+  color: #FFB704;
+  font-weight: 700;
+}

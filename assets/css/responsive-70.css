@@ -1,0 +1,44 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+.left-menu{
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.logo {
+	margin: 0;
+	padding: 15px;
+}
+    .copyright {
+	padding-bottom: 15px;
+}
+    .hero-area {
+	margin-left: 0;
+}
+    .hero-area {
+	margin-left: 0;
+	width: 100%;
+}
+    .hero-content h1 {
+	font-size: 35px;
+}
+    .hero-content {
+	margin-left: 5%;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
