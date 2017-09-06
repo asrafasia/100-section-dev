@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Assignment class 71 | Bootstarp tooltip and popover customize</title>
+
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../assets/css/style-71.css" rel="stylesheet">
+        <link href="../assets/css/responsive-71.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+
+        <div class="left-menu text-center">
+            <div class="logo">
+                <h2>rusty</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-icon">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2017, All rights reserved by <span>Asraf Uddin</span> </p>
+        </div>
+        
+        <div class="hero-area">
+            <div class="hero-area-tablecell">
+                <div class="hero-content">
+                    <h1>Hello <span>Everyone</span></h1>
+                    <p>Lorem ipsum dolor <span data-toggle="tooltip" title="Showing span tooltip now" style="color: red;">tooltip</span> consectetur adipisicing elit. Dignissimos magni maiores rerum nisi soluta eos qui soluta eos qui <span role="button" data-toggle="popover" title="this is popover" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, incidunt." style="color: yellow;">popover</span> soluta eos qui excepturi fuga quas inventore.</p>
+
+
+                    <a data-toggle="tooltip" title="This is tooltip" href="#" class="boxed-btn">Tooltip</a>
+
+
+                    <a tabindex="0" data-trigger="focus" role="button" data-toggle="popover" data-tigger="focus" title="This is popover" data-content="Here used data trigger focus for dismiss popover using next click  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, rem!" href="#" class="boxed-btn">Popover</a>
+
+
+
+
+
+                    <div class="arrow-down"><a href=""><i class="fa fa-long-arrow-down"></i></a></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/main-71.js"></script>
+    </body>
+</html>
