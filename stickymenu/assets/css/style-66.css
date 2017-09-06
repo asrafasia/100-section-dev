@@ -1,0 +1,266 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+
+/*for affix*/
+
+.mainmenu-area{
+     background: #23419A;
+     width: 100%;
+     z-index: 99;
+}
+
+/*logo stick width menu*/
+.stick-area{
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+}
+
+.mainmenu-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+   
+    
+}
+
+.mainmenu-area ul li{
+    display: inline-block;
+    position: relative;
+}
+.mainmenu-area ul li a{
+    display: block;
+    color: #7FD7FF;
+    padding: 0 20px 35px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    
+    
+}
+
+
+/*for window scroll*/
+
+.is_stick{
+    position: fixed;
+}
+
+/* window scroll stick with logo*/
+
+.sticked{
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+/*sticky menu with stick js plugin*/
+
+.logo-stick-area{
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+.is-sticky{
+    position: relative;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
