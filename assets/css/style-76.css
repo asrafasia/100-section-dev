@@ -1,0 +1,255 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding.round-bg{
+    position: relative;
+    z-index: 1;
+   
+}
+.section-padding.round-bg:after{
+    background-image: url('../images/round-bg-76.jpg');
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: "";
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    z-index: -1;
+    margin-left: -225px;
+    margin-top: -225px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+}
+.feature-icon{
+    position: absolute;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 10px;
+    top: 0;
+    transition: .3s;
+    
+}
+.feature-icon i{
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    line-height: 120px;
+}
+.single-feature-item h2{
+    font-size: 22px;
+    font-weight: 400;
+    
+    
+}
+.single-feature-item{
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    padding-right: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+  
+
+}
+.single-feature-item:hover .feature-icon{
+    box-shadow: 0 0 5px #333;
+      color: #C27197;
+}
+.left-icon .feature-icon{
+    left:0;
+    right: auto;
+}
+.single-feature-item.left-icon{
+    margin-left: 40px;
+    padding-left: 170px;
+    padding-right: 0;
+    text-align: left;
+    margin-right: 40px;
+    
+}
+.single-feature-item.feature-padding-left{
+    margin-left: 0;
+    margin-right: 150px;
+}
+.single-feature-item.feature-padding-right{
+    margin-right: 0;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
