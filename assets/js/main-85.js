@@ -9,7 +9,7 @@
     		dots : false,
     		navText : ["<i class='fa fa-long-arrow-left'>","<i class='fa fa-long-arrow-right'>"],
     		loop : true,
-    		autoplay : false,
+    		autoplay : true,
     	});
         
 
