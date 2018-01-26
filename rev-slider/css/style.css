@@ -1,0 +1,18 @@
+    
+/*rev slider custon csss*/
+
+    .bannercontainer {
+    	width:100%;
+    	position:relative;
+    	padding:0;
+    }
+     
+    .banner{
+    	width:100%;
+    	position:relative;
+    }
+	.banner>ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
